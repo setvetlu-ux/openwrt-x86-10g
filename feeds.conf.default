@@ -1,0 +1,11 @@
+src-git packages https://git.openwrt.org/feed/packages.git
+src-git luci https://git.openwrt.org/project/luci.git
+src-git routing https://git.openwrt.org/feed/routing.git
+src-git telephony https://git.openwrt.org/feed/telephony.git
+
+# community third-party feeds (for passwall/adguard/smartdns)
+src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git
+src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall.git
+src-git helloworld https://github.com/fw876/helloworld.git
+src-git luci-app-adguardhome https://github.com/rufengsuixing/luci-app-adguardhome.git
+# smartdns is often packaged in packages but we also clone its repo in workflow if needed
